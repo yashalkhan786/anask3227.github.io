@@ -1,0 +1,43 @@
+.flex-all-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+flex-wrap: left;
+} 
+.logo{
+    display: flex;
+   justify-self: start;
+   align-items: flex-start;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+}
+.container{
+    display: flex;
+  align-self: start;
+   justify-content: center;
+   flex-shrink: left;
+}
+.flex-all-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-wrap: ;
+}
+div{
+    display: flex;
+
+}
+img{
+    display: flex;
+  align-content: flex-start;
+    justify-self: start;
+animation: normal;
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+}
