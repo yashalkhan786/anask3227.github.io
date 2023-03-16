@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function upperCase() {
+            const x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+
+    </script>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", function () {
+            alert("Hello World!");
+        });
+    </script>
+    <script>
+        document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
+    </script>
+    <script>
+        function myFunction() {
+            document.getElementById("myDIV").style.animationDuration = "1s";
+        }
+    </script><script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Ride your dream"
+}
+</script>
+
+
+
+    <title>black panther</title>
+</head>
+
+<body class="text-center mt-11 p-30 flex justify-center " style="background-image:url('images (222).jfif')">
+
+    <div class=" text-center mt-16 p-30" id="myDIV"></div>
+    <div class="from-purple-500 to-pink-500">
+        <div id="myDIV" class=" text-center text-5xl   sm:text-7xl md:text-7xl lg:text-9xl xl:text-9xl 2xl:text-9xl
+        text-green-500 italic font-thin tracking-tight leading-8"
+            style="font-family: 'Edu NSW ACT Foundation', cursive;"onmouseover="mOver(this)" onmouseout="mOut(this)" 
+            style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Ride your dream <br>
+        </div>
+        <div>
+
+
+        </div>
+
+
+
+
+        <div class=" flex-wrap  mt-16" action="connect.pht" method="post">
+            <div class="text-center">
+                <h4 class="sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+    text-green-500 ">LOG IN</h4>
+            </div>
+
+
+
+
+            <div class="text-center mt-7">
+                <h4 class="text-1xl font-sans  sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+    text-green-500  ">Name : <input type="text" placeholder="Enter Name " value="" id="fname" onchange="upperCase()"
+                        class=" text-center  outline-none text-centersm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+    text-green-500 " name="name"></h4>
+            </div>
+            <div class="text-center mt-6">
+                <h4 class=" mx-4 text-1xl font-sans  sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+   text-green-500 ">Email    :<input type="text" placeholder="Enter email" value="" class=" text-center outline-none sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+   text-green-500  " name=" email "></h4>
+            </div>
+            <div class="text-center mt-6">
+                <h4 class=" text-1xl font-sanssm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+   text-green-500 ">Password : <input type="password" placeholder="Enter Password" class=" text-center  outline-none sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+   text-green-500   " name="password"></h4>
+            </div>
+
+
+
+
+
+            <div class="mt-10">
+                <button type="submit" id="myBtn" class=" p-1 bg-green-400 hover:bg-cyan-200 sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+        text-white  
+        sm:p-1 md:p-1 lg:p-1 rounded-full  "><a href="cars2.html" class="sm:text-1xl md:text-1xl lg:text-2xl xl:text-2xl 2xl:text-3xl
+        text-white hover:text-green-300 text-center " onclick="this.innerHTML='have fun'">s u b m i t </a> </button>
+            </div>
+
+        </div>
+</body>
+
+</html>
